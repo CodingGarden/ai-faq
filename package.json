@@ -1,0 +1,21 @@
+{
+  "name": "ai-faq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "tsx src/bot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.12.6"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "tmi.js": "^1.8.5"
+  }
+}
